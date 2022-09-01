@@ -54,18 +54,11 @@
           "settings": {
             "collection": "farmhouse"
           }
-        },
-        "1662051600acde93bd-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "1662051600acde93bd-0",
-        "1662051600acde93bd-1",
-        "1662051600acde93bd-2"
+        "1662051600acde93bd-1"
       ],
       "settings": {
         "title": "Collections",
