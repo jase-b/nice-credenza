@@ -2288,20 +2288,20 @@ input[type='checkbox'] {
 }
 
 .header__heading {
-  margin: 0 0 0 7rem;
+  margin: 0;
   line-height: 0;
   position: relative;
   transform: translateY(2px);
 }
 
-.header__heading::before {
+/* .header__heading::before {
   content: "Find a";
-  /* display: inline-block; */
+  display: inline-block;
   font-size: 1.8rem;
   left: -7rem;
   position: absolute;
   top: 2.6rem;
-}
+} */
 
 .header > .header__heading-link {
   line-height: 0;
