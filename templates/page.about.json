@@ -43,20 +43,10 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "16631821877a166573": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "inverse",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
     }
   },
   "order": [
     "main",
-    "166317165495590dd7",
-    "16631821877a166573"
+    "166317165495590dd7"
   ]
 }
