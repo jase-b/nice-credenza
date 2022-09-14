@@ -6,9 +6,53 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1663170641380da0ae": {
+      "type": "image-with-text",
+      "blocks": {
+        "166317064160a02690-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "166317064160a02690-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "166317064160a02690-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166317064160a02690-0",
+        "166317064160a02690-1",
+        "166317064160a02690-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1663170641380da0ae"
   ]
 }
