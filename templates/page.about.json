@@ -2,9 +2,46 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "166317165495590dd7": {
+      "type": "image-banner",
+      "blocks": {
+        "16631716542860e4e1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What-za Credenza?",
+            "heading_size": "h0"
+          }
+        },
+        "16631716542860e4e1-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16631716542860e4e1-0",
+        "16631716542860e4e1-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/credenza_743f9939-e41d-4eed-8e64-684d905333e0.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "1663170641380da0ae": {
@@ -31,7 +68,7 @@
       ],
       "settings": {
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -45,6 +82,7 @@
   },
   "order": [
     "main",
+    "166317165495590dd7",
     "1663170641380da0ae"
   ]
 }
