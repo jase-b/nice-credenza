@@ -1,0 +1,19 @@
+.about-credenza__container {
+    background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/wood_triangle_pattern.jpg?v=1663300156);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem;
+}
+
+.about-credenza__text-box-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-credenza__text-box {
+    clip-path: polygon(0% 10%, 5% 10%, 5% 0%, 95% 0%, 95% 10%, 100% 10%, 100% 90%, 95% 90%, 95% 100%, 5% 100%, 5% 90%, 0% 90%);
+    font-size: 1.8rem;
+    padding: 3rem;
+}
