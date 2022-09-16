@@ -44,49 +44,6 @@
         "show_text_below": true
       }
     },
-    "1663199697879c364c": {
-      "type": "multicolumn",
-      "blocks": {
-        "166319969705076f38-0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Credenzas are similar in nature to sideboards and buffets. They can include cabinets, drawers, shelves, and special cutouts and designs.<\/p><p>But technically, a credenza is its own thing.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "166319969705076f38-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>The traditional credenza has short or no legs. It also tends to be a bit smaller and fancier than other sideboards.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "166319969705076f38-0",
-        "166319969705076f38-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1663297294e9404df3": {
       "type": "custom-liquid",
       "settings": {
@@ -100,7 +57,6 @@
   "order": [
     "main",
     "166317165495590dd7",
-    "1663199697879c364c",
     "1663297294e9404df3"
   ]
 }
