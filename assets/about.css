@@ -1,9 +1,53 @@
-.about-credenza__container {
-    background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/wood_triangle_pattern.jpg?v=1663300156);
-    background-position: center;
-    background-size: cover;
+.whatza__hero-1__container {
+    background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/whatza__hero-1.jpg?v=1664210563);
+    background-position: 100% 85%;
     background-repeat: no-repeat;
-    padding: 4rem;
+    background-size: 105%;
+    display: flex;
+    height: 580px;
+    width: 100%;
+}
+
+.whatza__hero-1__text-container {
+    align-self: center;
+    color: var(--credenza-blue-1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: -15%;
+    width: 500px;
+}
+
+.whatza__hero-1__heading {
+    font-size: 3rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.whatza__hero-1__heading::before {
+    --line-size: 3px;
+    background-color: var(--credenza-red-1);
+    clip-path: polygon(0% 0%, 160px 0, 160px var(--line-size), var(--line-size) var(--line-size), var(--line-size) 80%, 0% 80%);
+    content: "";
+    font-size: 3rem;
+    height: 50px;
+    left: -1.5rem;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    width: 128px;
+}
+
+.whatza__hero-1__subheading {
+    margin-top: 1rem;
+}
+
+.about-credenza__container {
+    background-color: var(--credenza-blue-dark-2);
+    clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    margin-top: -200px;
+    min-height: 380px;
 }
 
 .about-credenza__text-box-container {
@@ -13,7 +57,6 @@
 }
 
 .about-credenza__text-box {
-    clip-path: polygon(0% 10%, 5% 10%, 5% 0%, 95% 0%, 95% 10%, 100% 10%, 100% 90%, 95% 90%, 95% 100%, 5% 100%, 5% 90%, 0% 90%);
     font-size: 1.8rem;
     padding: 3rem;
 }
