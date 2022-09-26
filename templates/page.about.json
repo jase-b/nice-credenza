@@ -20,8 +20,7 @@
     "1663297294e9404df3": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render \"whatza-credenza\" %}",
-        "color_scheme": "background-2",
+        "custom_liquid": "{% render \"whatza-section-bowtie\" %}",
         "padding_top": 0,
         "padding_bottom": 0
       }
