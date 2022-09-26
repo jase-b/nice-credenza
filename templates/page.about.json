@@ -8,40 +8,13 @@
         "padding_bottom": 28
       }
     },
-    "166317165495590dd7": {
-      "type": "image-banner",
-      "blocks": {
-        "16631716542860e4e1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "What-za Credenza?",
-            "heading_size": "h0"
-          }
-        },
-        "16631716542860e4e1-1": {
-          "type": "text",
-          "settings": {
-            "text": "A credenzas is a long, cabinet-style piece of furniture that's low to the floor and  usually placed against a wall. It’s typically used for decoration, storage, and organization.",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "16631716542860e4e1-0",
-        "16631716542860e4e1-1"
-      ],
+    "1664212917e7fcd868": {
+      "type": "custom-liquid",
       "settings": {
-        "image": "shopify:\/\/shop_images\/whatza__hero-1.jpg",
-        "image_overlay_opacity": 100,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "custom_liquid": "{% render \"whatza-hero-1\" %}",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "1663297294e9404df3": {
@@ -56,7 +29,7 @@
   },
   "order": [
     "main",
-    "166317165495590dd7",
+    "1664212917e7fcd868",
     "1663297294e9404df3"
   ]
 }
