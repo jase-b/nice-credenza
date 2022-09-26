@@ -15,7 +15,6 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 15%;
-    margin-top: -15%;
     width: 500px;
 }
 
@@ -46,8 +45,11 @@
 .about-credenza__container {
     background-color: var(--credenza-blue-dark-2);
     clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%);
-    margin-top: -200px;
     min-height: 380px;
+}
+
+.about-credenza__container p {
+    color: var(--credenza-orange-1);
 }
 
 .about-credenza__text-box-container {
