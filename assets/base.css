@@ -2327,6 +2327,7 @@ input[type='checkbox'] {
 
 .header__heading-logo {
   height: auto;
+  margin-top: 2rem;
   position: relative;
   width: 100%;
 }
