@@ -5,6 +5,7 @@
     background-size: 105%;
     display: flex;
     height: 580px;
+    padding: 0;
     width: 100%;
 }
 
@@ -14,12 +15,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 15%;
-    width: 500px;
+    /* margin-left: 8%; */
+    margin-top: -10%;
+    max-width: 63%;
 }
 
 .whatza__hero-1__heading {
-    font-size: 3rem;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 6rem;
     position: relative;
     text-transform: uppercase;
 }
@@ -27,19 +30,24 @@
 .whatza__hero-1__heading::before {
     --line-size: 3px;
     background-color: var(--credenza-red-1);
-    clip-path: polygon(0% 0%, 160px 0, 160px var(--line-size), var(--line-size) var(--line-size), var(--line-size) 80%, 0% 80%);
+    clip-path: polygon(0% 0%, 190px 0, 190px var(--line-size), var(--line-size) var(--line-size), var(--line-size) 80%, 0% 80%);
     content: "";
     font-size: 3rem;
-    height: 50px;
-    left: -1.5rem;
+    height: 100px;
+    left: -3rem;
     position: absolute;
     text-transform: uppercase;
     top: 0;
-    width: 128px;
+    width: 200px;
 }
 
 .whatza__hero-1__subheading {
+    font-family: 'Overpass', sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.5;
     margin-top: 1rem;
+    max-width: 70%;
+    /* text-align: center; */
 }
 
 .about-credenza__container {
