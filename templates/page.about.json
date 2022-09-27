@@ -19,9 +19,17 @@
     },
     "1663297294e9404df3": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "{% render \"whatza-section-bowtie\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "166424264448cc4179": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render \"whatza-hero-2\" %}",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -31,6 +39,7 @@
   "order": [
     "main",
     "1664212917e7fcd868",
-    "1663297294e9404df3"
+    "1663297294e9404df3",
+    "166424264448cc4179"
   ]
 }
