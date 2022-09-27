@@ -2371,7 +2371,12 @@ input[type='checkbox'] {
   /* display: flex;
   grid-area: icons;
   justify-self: end; */
-  margin-left: 2rem;
+  margin-left: auto;
+}
+@media screen and (min-width: 750px) {
+  .header__icons {
+    margin-left: 2rem;
+  }
 }
 
 .header__icon:not(.header__icon--summary),
