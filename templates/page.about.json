@@ -30,12 +30,22 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1664387416c6175c66": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render \"whatza-image-tiles\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "1664212917e7fcd868",
     "16643148454826bd0b",
-    "166424264448cc4179"
+    "166424264448cc4179",
+    "1664387416c6175c66"
   ]
 }
