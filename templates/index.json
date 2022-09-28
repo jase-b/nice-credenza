@@ -20,12 +20,33 @@
           "settings": {
             "collection": "elegant-minimalist"
           }
+        },
+        "9a093b07-3026-48ac-8ca7-c2c0d39511b5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "industrial"
+          }
+        },
+        "8422ace7-0871-4627-bbf5-4b540c039cec": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "retro"
+          }
+        },
+        "3cf21a01-b11c-4f1c-a5a8-dea4161b46ab": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "carts-trolleys"
+          }
         }
       },
       "block_order": [
         "16613855695ea005e0-0",
         "16613855695ea005e0-1",
-        "16613855695ea005e0-2"
+        "16613855695ea005e0-2",
+        "9a093b07-3026-48ac-8ca7-c2c0d39511b5",
+        "8422ace7-0871-4627-bbf5-4b540c039cec",
+        "3cf21a01-b11c-4f1c-a5a8-dea4161b46ab"
       ],
       "settings": {
         "title": "Collections",
