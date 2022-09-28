@@ -1,27 +1,31 @@
-<div class="page-width about-credenza__container">
-  {% comment %} <div class="page-width about-credenza__text-box-container">
-      <div class="about-credenza__text-box">
+{{ 'section-bowtie.css' | asset_url | stylesheet_tag }}
+
+
+<div class="page-width bowtie__container">
+  <div class="bowtie__text-box-container">
+      <div class="bowtie__text-box">
           <p>Credenzas are similar in nature to sideboards and buffets. They can include cabinets, drawers, shelves, and special cutouts and designs. But technically, a credenza is its own thing.</p>
       </div>
-      <div class="about-credenza__text-box">
+      <div class="bowtie__text-box">
           <p>The traditional credenza has short or no legs. It also tends to be a bit smaller and fancier than other sideboards.</p>
       </div>
-  </div> {% endcomment %}
+  </div>
 </div>
 
 {% schema %}
 {
   "name": "Bow Tie",
-  "class": "section bow-tie",
+  "class": "section bowtie",
   "tag": "section",
   "settings": [
+
   ],
-      "presets": [
-      {
+  "presets": [
+    {
       "name": "Bow Tie",
       "category": "Custom"
-      }
-    ]
+    }
+  ]
 }
 {% endschema %}
 

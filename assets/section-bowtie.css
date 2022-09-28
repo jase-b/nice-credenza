@@ -1,0 +1,49 @@
+.section.bowtie {
+  z-index: 1;
+}
+@media screen and (min-width: 750px) {
+  .section.bowtie {
+    margin-bottom: -9rem;
+    margin-top: -13rem;
+  }
+}
+
+.bowtie__container {
+  background-color: var(--credenza-blue-dark-2);
+}
+@media screen and (min-width: 750px) {
+  .bowtie__container {
+    clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%);
+  }
+}
+
+.bowtie__container p {
+  color: var(--credenza-orange-1);
+}
+
+.bowtie__text-box-container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+@media screen and (min-width: 750px) {
+  .bowtie__text-box-container  {
+    clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    flex-direction: row;
+    padding: 5rem 1vw;
+  }
+}
+
+.bowtie__text-box {
+  /* border: 1px solid red; */
+  flex-basis: 42%;
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 750px) {
+  .bowtie__text-box  {
+    padding: 3rem;
+  }
+}

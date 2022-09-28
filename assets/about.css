@@ -46,8 +46,8 @@
 
 .whatza__hero__text-container.hero-2 {
     position: absolute;
-    left: calc(50% - 10rem);
-    top: 8vw;
+    left: calc(50% - 11rem);
+    top: 11vw;
 }
 /* @media screen and (min-width: 750px) {
     .whatza__hero__text-container.hero-1 {
@@ -63,7 +63,7 @@
 }
 @media screen and (min-width: 750px) {
     .whatza__hero__heading {
-        font-size: 5.2rem;
+        font-size: 5rem;
     }
 }
 
@@ -115,32 +115,4 @@
         font-size: 2rem;
         max-width: 70%;
     }
-}
-
-
-
-.about-credenza__container {
-    background-color: var(--credenza-blue-dark-2);
-    clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%);
-    min-height: 200px;
-}
-@media screen and (min-width: 750px) {
-    .about-credenza__container {
-        min-height: 380px;
-    }
-}
-
-.about-credenza__container p {
-    color: var(--credenza-orange-1);
-}
-
-.about-credenza__text-box-container {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: 1fr 1fr;
-}
-
-.about-credenza__text-box {
-    font-size: 1.8rem;
-    padding: 3rem;
 }
