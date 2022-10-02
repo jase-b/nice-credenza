@@ -1,0 +1,116 @@
+.taper-left {
+  clip-path: var(--taper-left-path);
+}
+
+.taper-right {
+  clip-path: var(--taper-right-path);
+}
+
+/*  */
+
+.whatza__image-tiles__container {
+  display: grid;
+  column-gap: calc(var(--tile-side-margin) * 2);
+  grid-template-columns: 1fr;
+  padding: 0;
+  width: 100%;
+}
+@media screen and (min-width: 750px) {
+  .whatza__image-tiles__container {
+    grid-template-columns: 1fr 1fr;
+    margin-top: -40px;
+  }
+}
+
+.whatza__image-tiles__tile {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  height: 420px;
+  margin-top: -40px;
+  position: relative;
+  place-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 750px) {
+  .whatza__image-tiles__tile {
+    flex-basis: 50%;
+    height: 460px;
+    margin-top: 0;
+  }
+}
+
+.whatza__image-tiles__tile:not(:nth-child(-n+2)) {
+  margin-top: calc(var(--tile-side-margin) * -2);
+}
+
+.whatza__image-tiles__tile:last-child {
+  clip-path: polygon(0 var(--taper-depth) , 100% 0, 100% 100%, 0 100%);
+}
+@media screen and (min-width: 750px) {
+  .whatza__image-tiles__tile:last-child  {
+    clip-path: var(--taper-left-path);
+  }
+}
+
+.whatza__image-tiles__tile::after {
+  background-color: #946952;
+  bottom: 0;
+  content: "";
+  left: 0;
+  mix-blend-mode: overlay;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.whatza__image-tiles__tile.tile-1 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/whatza__img-tile-1.jpg?v=1664336184);
+}
+
+.whatza__image-tiles__tile.tile-3 {
+  grid-row: 4;
+}
+@media screen and (min-width: 750px) {
+  .whatza__image-tiles__tile.tile-3 {
+    grid-row: initial;
+  }
+}
+
+.whatza__image-tiles__tile.tile-4 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/whatza__img-tile-4.jpg?v=1664336169);
+}
+
+.whatza__image-tiles__tile.tile-5 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/whatza__img-tile-5.jpg?v=1664478432);
+}
+
+.whatza__image-tiles__tile.pattern-background {
+  background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/y-so-serious-white.png?v=1664738348);
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+.whatza__image-tiles__tile.pattern-background::before {
+  background-color: #04344d;
+  bottom: 0;
+  content: "";
+  left: 0;
+  mix-blend-mode: multiply;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.whatza__image-tiles__tile-text-background {
+  background-color: rgba(3, 36, 54, .9);
+  color: var(--credenza-orange-1);
+  display: grid;
+  font-size: 2.4rem;
+  height: 100%;
+  padding: 0 10%;
+  place-items: center;
+  transform: scale(75%);
+  width: 100%;
+}
