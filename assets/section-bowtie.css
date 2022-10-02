@@ -1,9 +1,9 @@
 .section.bowtie {
-  z-index: 1;
+  z-index: 5;
 }
 @media screen and (min-width: 750px) {
   .section.bowtie {
-    margin-bottom: -9rem;
+    margin-bottom: -12rem;
     margin-top: -13rem;
   }
 }
@@ -13,7 +13,7 @@
 }
 @media screen and (min-width: 750px) {
   .bowtie__container {
-    clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    clip-path: polygon(0 0, 50% var(--taper-depth), 100% 0, 100% 100%, 50% calc(100% - var(--taper-depth)), 0 100%);
   }
 }
 
@@ -33,7 +33,7 @@
   .bowtie__text-box-container  {
     clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%);
     flex-direction: row;
-    padding: 5rem 1vw;
+    padding: 0;
   }
 }
 
@@ -44,6 +44,8 @@
 }
 @media screen and (min-width: 750px) {
   .bowtie__text-box  {
-    padding: 3rem;
+    font-size: 1.8rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
   }
 }
