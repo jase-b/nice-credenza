@@ -1,0 +1,6 @@
+.whatza__sections-container {
+  --taper-depth: 80px;
+  --taper-left-path: polygon(0 var(--taper-depth) , 100% 0, 100% 100%, 0 calc(100% - var(--taper-depth)));
+  --taper-right-path: polygon(0 0, 100% var(--taper-depth), 100% calc(100% - var(--taper-depth)), 0 100%);
+  --tile-side-margin: calc(var(--taper-depth) / 4);
+}
