@@ -114,3 +114,8 @@
   transform: scale(75%);
   width: 100%;
 }
+@media screen and (min-width: 750px) {
+  .whatza__image-tiles__tile-text-background {
+    font-size: 2.6rem;
+  }
+}

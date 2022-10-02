@@ -14,6 +14,8 @@
 @media screen and (min-width: 750px) {
   .bowtie__container {
     clip-path: polygon(0 0, 50% var(--taper-depth), 100% 0, 100% 100%, 50% calc(100% - var(--taper-depth)), 0 100%);
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 }
 
