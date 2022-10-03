@@ -2313,6 +2313,7 @@ input[type='checkbox'] {
 
 .header__heading-link {
   display: inline-block;
+  margin: 0 auto;
   text-decoration: none;
   word-break: break-word;
 }

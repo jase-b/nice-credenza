@@ -144,8 +144,7 @@
         "settings": {
           "color_scheme": "background-2",
           "logo": "shopify:\/\/shop_images\/nice_credenza_logo.png",
-          "logo_width": 160,
-          "logo_position": "middle-left",
+          "logo_width": 140,
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
