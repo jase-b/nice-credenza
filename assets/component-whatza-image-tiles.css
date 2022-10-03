@@ -45,15 +45,6 @@
   margin-top: calc(var(--tile-side-margin) * -2);
 }
 
-.whatza__image-tiles__tile:last-child {
-  clip-path: polygon(0 var(--taper-depth) , 100% 0, 100% 100%, 0 100%);
-}
-@media screen and (min-width: 750px) {
-  .whatza__image-tiles__tile:last-child  {
-    clip-path: var(--taper-left-path);
-  }
-}
-
 .whatza__image-tiles__tile::after {
   background-color: #946952;
   bottom: 0;
@@ -84,6 +75,16 @@
 
 .whatza__image-tiles__tile.tile-5 {
   background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/whatza__img-tile-5.jpg?v=1664478432);
+}
+
+.whatza__image-tiles__tile.tile-8 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/whatza__queen-bee.jpg?v=1664822540);
+  grid-row: 7;
+}
+@media screen and (min-width: 750px) {
+  .whatza__image-tiles__tile.tile-8 {
+    grid-row: initial;
+  }
 }
 
 .whatza__image-tiles__tile.pattern-background {
