@@ -11,7 +11,7 @@
   background-image: url(https://cdn.shopify.com/s/files/1/0620/0786/9604/files/whatza__hero-1.jpg?v=1664210563);
   background-position: 100% 85%;
   background-size: cover;
-  height: 260px;
+  height: 270px;
 }
 @media screen and (min-width: 750px) {
   .whatza__hero__container.hero-1  {
@@ -48,8 +48,12 @@
 
 .whatza__hero__text-container.hero-1 {
   align-self: center;
-  margin-top: -10%;
   max-width: 63%;
+}
+@media screen and (min-width: 750px) {
+  .whatza__hero__text-container.hero-1 {
+    margin-top: -10%;
+  }
 }
 
 .whatza__hero__text-container.hero-2 {
@@ -109,7 +113,7 @@
 
 .whatza__hero__subheading {
   font-family: 'Overpass', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   margin-top: 1rem;
   max-width: 80%;
