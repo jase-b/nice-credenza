@@ -58,8 +58,8 @@
 
 .whatza__hero__text-container.hero-2 {
   position: absolute;
-  left: calc(50% - 11rem);
-  top: 10vw;
+  left: calc(50% - 12rem);
+  top: 12vw;
 }
 @media screen and (min-width: 750px) {
   .whatza__hero__text-container.hero-2 {
@@ -114,6 +114,7 @@
 .whatza__hero__subheading {
   font-family: 'Overpass', sans-serif;
   font-size: 1.4rem;
+  font-weight: 600;
   line-height: 1.5;
   margin-top: 1rem;
   max-width: 80%;
