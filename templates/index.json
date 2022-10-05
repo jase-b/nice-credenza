@@ -9,16 +9,10 @@
             "collection": "bold-designs"
           }
         },
-        "16613855695ea005e0-1": {
+        "8422ace7-0871-4627-bbf5-4b540c039cec": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-modern-mystic"
-          }
-        },
-        "16613855695ea005e0-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "elegant-minimalist"
+            "collection": "retro"
           }
         },
         "9a093b07-3026-48ac-8ca7-c2c0d39511b5": {
@@ -27,10 +21,22 @@
             "collection": "industrial"
           }
         },
-        "8422ace7-0871-4627-bbf5-4b540c039cec": {
+        "16613855695ea005e0-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "retro"
+            "collection": "elegant-minimalist"
+          }
+        },
+        "16613855695ea005e0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-modern-mystic"
+          }
+        },
+        "128c930c-b88c-4911-a417-68fe67348ffd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office"
           }
         },
         "3cf21a01-b11c-4f1c-a5a8-dea4161b46ab": {
@@ -38,15 +44,30 @@
           "settings": {
             "collection": "carts-trolleys"
           }
+        },
+        "219864eb-c04b-4087-99d8-b73e843bc123": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "smalls"
+          }
+        },
+        "f21a5149-8318-4f1f-8b2e-91bce45d6504": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lamps"
+          }
         }
       },
       "block_order": [
         "16613855695ea005e0-0",
-        "16613855695ea005e0-1",
-        "16613855695ea005e0-2",
-        "9a093b07-3026-48ac-8ca7-c2c0d39511b5",
         "8422ace7-0871-4627-bbf5-4b540c039cec",
-        "3cf21a01-b11c-4f1c-a5a8-dea4161b46ab"
+        "9a093b07-3026-48ac-8ca7-c2c0d39511b5",
+        "16613855695ea005e0-2",
+        "16613855695ea005e0-1",
+        "128c930c-b88c-4911-a417-68fe67348ffd",
+        "3cf21a01-b11c-4f1c-a5a8-dea4161b46ab",
+        "219864eb-c04b-4087-99d8-b73e843bc123",
+        "f21a5149-8318-4f1f-8b2e-91bce45d6504"
       ],
       "settings": {
         "title": "Browse by Collection",
@@ -54,7 +75,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "color_scheme": "background-1",
-        "show_view_all": true,
+        "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 32,
