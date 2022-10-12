@@ -1,5 +1,27 @@
 {
   "sections": {
+    "21a78f48-b274-4c0d-8553-e733ee54980c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15773855908004__21a78f48-b274-4c0d-8553-e733ee54980c-16656048715aab6a00-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Nice Credenza!, a tree is planted every time one of our credenzas finds a home.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15773855908004__21a78f48-b274-4c0d-8553-e733ee54980c-16656048715aab6a00-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "1661385569bec6cb6a": {
       "type": "collection-list",
       "blocks": {
@@ -115,6 +137,7 @@
     }
   },
   "order": [
+    "21a78f48-b274-4c0d-8553-e733ee54980c",
     "1661385569bec6cb6a",
     "16630139788a95756d"
   ]
