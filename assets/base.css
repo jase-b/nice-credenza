@@ -2630,11 +2630,11 @@ details[open] > .header__submenu {
   font-family: 'Spartan', sans-serif;
   padding: 1.2rem 1.6rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(231, 236, 238, .75);
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+  color: rgb(231, 236, 238);
 }
 
 .header__menu-item span {
@@ -2660,7 +2660,7 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
+  color: var(--credenza-orange-light-1);
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
