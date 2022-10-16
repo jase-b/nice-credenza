@@ -13,14 +13,21 @@
 }
 @media screen and (min-width: 750px) {
   .bowtie__container {
-    clip-path: polygon(0 0, 50% var(--taper-depth), 100% 0, 100% 100%, 50% calc(100% - var(--taper-depth)), 0 100%);
+    clip-path: polygon(
+      0 0,
+      50% var(--taper-depth),
+      100% 0,
+      100% 100%,
+      50% calc(100% - var(--taper-depth)),
+      0 100%
+    );
     padding-left: 7rem;
     padding-right: 7rem;
   }
 }
 
 .bowtie__container p {
-  color: var(--credenza-orange-1);
+  color: var(--credenza-orange-light-1);
 }
 
 .bowtie__text-box-container {
@@ -32,7 +39,7 @@
   padding-top: 3rem;
 }
 @media screen and (min-width: 750px) {
-  .bowtie__text-box-container  {
+  .bowtie__text-box-container {
     clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%);
     flex-direction: row;
     padding: 0;
@@ -45,7 +52,7 @@
   font-size: 1.6rem;
 }
 @media screen and (min-width: 750px) {
-  .bowtie__text-box  {
+  .bowtie__text-box {
     font-size: 1.8rem;
     padding-bottom: 10rem;
     padding-top: 10rem;

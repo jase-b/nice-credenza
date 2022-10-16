@@ -41,7 +41,7 @@
   }
 }
 
-.whatza__image-tiles__tile:not(:nth-child(-n+2)) {
+.whatza__image-tiles__tile:not(:nth-child(-n + 2)) {
   margin-top: calc(var(--tile-side-margin) * -2);
 }
 
@@ -105,8 +105,8 @@
 }
 
 .whatza__image-tiles__tile-text-background {
-  background-color: rgba(3, 36, 54, .9);
-  color: var(--credenza-orange-1);
+  background-color: rgba(3, 36, 54, 0.9);
+  color: var(--credenza-orange-light-1);
   display: grid;
   font-size: 2.4rem;
   height: 100%;
