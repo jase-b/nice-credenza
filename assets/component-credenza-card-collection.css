@@ -70,9 +70,14 @@
 .credenza-collection__card__title {
   color: rgb(var(--color-background));
   font-family: 'Smooch Sans', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 1;
   text-align: center;
+}
+@media screen and (min-width: 460px) {
+  .credenza-collection__card__title {
+    font-size: 2.2rem;
+  }
 }
 @media screen and (min-width: 750px) {
   .credenza-collection__card__title {
