@@ -2,12 +2,11 @@
   "sections": {
     "21a78f48-b274-4c0d-8553-e733ee54980c": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15773855908004__21a78f48-b274-4c0d-8553-e733ee54980c-16656048715aab6a00-1": {
           "type": "text",
           "settings": {
-            "text": "<p>At Nice Credenza!, a tree is planted every time one of our credenzas finds a home.<\/p>"
+            "text": "<p>At Nice Credenza!, a tree is planted every time one of our credenzas finds a home through a donation to <a href=\"https:\/\/onetreeplanted.org\" title=\"https:\/\/onetreeplanted.org\">onetreeplanted.org<\/a>. <\/p>"
           }
         }
       },
