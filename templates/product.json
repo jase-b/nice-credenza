@@ -64,7 +64,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "content": "<p>Shipping is calculated using standard shipping rates based on your location at check-out.<\/p>",
+            "content": "<p>Shipping is calculated using standard shipping rates at check-out.<\/p>",
             "page": ""
           }
         },
