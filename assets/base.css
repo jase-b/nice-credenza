@@ -2705,13 +2705,23 @@ details[open] > .header__menu-item .icon-caret {
   margin: 0.5rem 0;
 }
 
+.header__submenu li:first-of-type .header__menu-item{
+  color: var(--credenza-blue-light-1);
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
 .header__submenu .header__menu-item:after {
   right: 2rem;
 }
 
+.header__submenu .header__menu-item:hover {
+  text-decoration: underline;
+}
+
 .header__submenu .header__menu-item {
   justify-content: space-between;
-  padding: 0.8rem 2.4rem;
+  padding: 1rem 2.4rem;
 }
 
 .header__submenu .header__submenu .header__menu-item {
