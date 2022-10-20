@@ -134,11 +134,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "a2dcf0fd-a737-4ef8-b9cd-47f7ec6648b4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"plg-impact\" data-widget-id=\"3TUUj6HPID-w0PYtPPyiAA\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "21a78f48-b274-4c0d-8553-e733ee54980c",
     "1661385569bec6cb6a",
-    "16630139788a95756d"
+    "16630139788a95756d",
+    "a2dcf0fd-a737-4ef8-b9cd-47f7ec6648b4"
   ]
 }
