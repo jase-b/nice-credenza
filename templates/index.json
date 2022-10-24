@@ -137,6 +137,7 @@
     },
     "a2dcf0fd-a737-4ef8-b9cd-47f7ec6648b4": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"plg-impact\" data-widget-id=\"3TUUj6HPID-w0PYtPPyiAA\"><\/div>",
         "color_scheme": "background-1",
