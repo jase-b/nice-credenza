@@ -3,10 +3,10 @@
     "6ee3dee1-23b0-4d82-8b7e-fa9853452f4f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% render \"credenza-home-banner\" %}",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1661385569bec6cb6a": {
