@@ -2706,7 +2706,7 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__submenu li:first-of-type .header__menu-item{
-  color: var(--credenza-blue-light-1);
+  color: rgb(var(--credenza-blue-light-1));
   justify-content: center;
   margin-bottom: 1rem;
 }
