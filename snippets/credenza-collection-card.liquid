@@ -1,40 +1,52 @@
 {% liquid
   assign collection_name = card_collection.title | downcase | replace: ' ', '-'
   assign src_url = ''
+  assign class_collection_name = ''
 
   case collection_name
     when 'classic-wood'
       assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__classic-wood.png?v=1665628487'
+      assign class_collection_name = 'classic-wood'
     when 'credenzas-on-wheels'
       assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__wheels.png?v=1665676009'
+      assign class_collection_name = 'credenzas-on-wheels'
     when 'industrial'
       assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__furnace.png?v=1665428664'
+      assign class_collection_name = 'industrial'
     when 'accessories'
       assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__lamps.png?v=1665677861'
+      assign class_collection_name = 'accessories'
     when 'modern'
       assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__modern.png?v=1666111981'
+      assign class_collection_name = 'modern'
     when 'office'
       assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__office.png?v=1665628052'
+      assign class_collection_name = 'office'
     when 'retro'
       assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__sacred-geometry.png?v=1665428360'
+      assign class_collection_name = 'retro'
     when 'smalls'
       assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__stacks.png?v=1665426694'
+      assign class_collection_name = 'smalls'
     when 'vibes'
-      assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__sunburst.png?v=1665428175'     
+      assign src_url = 'https://cdn.shopify.com/s/files/1/0620/0786/9604/files/collection-image__sunburst.png?v=1665428175' 
+      assign class_collection_name = 'vibes'   
   endcase
 %}
 
 <a href="{{ card_collection.url }}" class="credenza-collection__card">
-  <div class="credenza-collection__img-container">
     <img
-      class="credenza-collection__img"
+      class="credenza-collection__img {{ class_collection_name }}"
       height="{{ card_collection.featured_image.height }}"
       width="{{ card_collection.featured_image.width }}"
       loading="lazy"
       src="{{ src_url }}"
     />
-    <div class="credenza-collection__img-floor">
-      <span class="credenza-collection__card__title">{{ card_collection.title }}</span>
-    </div>
-  </div>
+    <p class="credenza-collection__card__title">{{ card_collection.title }}</p>
 </a>
+
+{% style %}
+  .credenza-collection__card {
+    background-image: url({{ 'credenza-collection-card-background.svg' | asset_url }});
+  }
+{% endstyle %}

@@ -1,0 +1,76 @@
+.collection-list.grid {
+  row-gap: 14rem;
+}
+
+.credenza-collection__card {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  margin: 0 auto;
+  max-width: 440px;
+  position: relative;
+  transform: scale(1);
+  transition: all .25s ease-in-out;
+}
+
+.credenza-collection__img-background {
+  width: 100%;
+}
+
+.credenza-collection__img {
+  bottom: 15%;
+  left: 0;
+  position: absolute;
+  height: auto;
+  transform: scale(.85);
+  width: 100%;
+}
+
+.credenza-collection__img.vibes {
+  bottom: 25%;
+  transform: scale(.95);
+}
+
+.credenza-collection__img.classic-wood {
+  bottom: 30%;
+  transform: scale(.9);
+}
+
+.credenza-collection__img.modern,
+.credenza-collection__img.office {
+  bottom: 5%;
+  transform: scale(.75);
+}
+
+.credenza-collection__img.credenzas-on-wheels,
+.credenza-collection__img.smalls,
+.credenza-collection__img.accessories {
+  bottom: -20%;
+  transform: scale(.5);
+}
+
+.credenza-collection__card__title {
+  bottom: -3rem;
+  color: var(--credenza-gray-light-1);
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 460px) {
+  .credenza-collection__card__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 750px) {
+  .credenza-collection__card__title {
+    font-size: 5rem;
+  }
+}
