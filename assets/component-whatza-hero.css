@@ -70,6 +70,7 @@
 .whatza__hero__heading {
   font-family: 'Smooch Sans', sans-serif;
   font-size: 2.8rem;
+  line-height: 1;
   position: relative;
   text-transform: uppercase;
 }

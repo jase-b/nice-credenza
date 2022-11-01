@@ -191,6 +191,38 @@
         --credenza-red-1: #FF8663;
       }
 
+      [class*="heading-decoration"]::before {
+        --line-size: 2px;
+        background-color: var(--credenza-red-1);
+        content: "";
+        font-size: 3rem;
+        height: 100%;
+        position: absolute;
+        text-transform: uppercase;
+        top: -1.6rem;
+        width: 100%;
+      }
+      @media screen and (min-width: 750px) {
+        [class*="heading-decoration"]::before {
+            --line-size: 3px;
+        }
+      }
+
+      .heading-decoration--left::before {
+        clip-path: polygon(0% 0%, 52% 0, 52% var(--line-size), var(--line-size) var(--line-size), var(--line-size) 70%, 0% 70%);
+        left: -1.2rem;
+      }
+      @media screen and (min-width: 750px) {
+        .heading-decoration--left::before {
+            left: -3rem;
+        }
+      }
+
+      .heading-decoration--right::before {
+        clip-path: polygon(50% 0, 100% 0, 100% 80%, calc(100% - var(--line-size)) 80%, calc(100% - var(--line-size)) var(--line-size), 50% var(--line-size));
+        right: -2.2rem;
+      }
+
       *,
       *::before,
       *::after {
