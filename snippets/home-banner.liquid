@@ -1,0 +1,16 @@
+{{ 'home-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width home-banner__container">
+  <div class="home-banner__hero-text-background">
+    <div class="home-banner__hero-text-container">
+      <h1 class="home-banner__hero-text heading-decoration--left">Browse Our Collections</h1>
+      <h2 class="home-banner__hero-text">Find the perfect credenza or sideboard for your room&#33;</h2>
+    </div>
+  </div>
+</div>
+
+{% style %}
+  .home-banner__container {
+    background-image: url({{ 'home-banner-hero.jpg' | asset_url }});
+  }
+{% endstyle %}

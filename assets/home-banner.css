@@ -1,0 +1,74 @@
+.home-banner__container {
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  padding: 0;
+  width: 100%;
+}
+@media screen and (min-width: 750px) {
+  .home-banner__container {
+    background-size: contain;
+    height: 250px;
+  }
+}
+
+.home-banner__hero-text-background {
+  align-items: center;
+  background-color: transparent;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  display: flex;
+  height: 100%;
+  width: 75%;
+}
+@media screen and (min-width: 750px) {
+  .home-banner__hero-text-background {
+    background-color: var(--credenza-gray-light-1);
+  }
+}
+
+.home-banner__hero-text-container {
+  /* border: 1px solid red; */
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 12%;
+  max-width: 60%;
+}
+@media screen and (min-width: 750px) {
+  .home-banner__hero-text-container {
+    max-width: initial;
+  }
+}
+
+.home-banner__hero-text {
+  color: var(--credenza-blue-1);
+  margin: 0;
+}
+
+h1.home-banner__hero-text {
+  font-family: 'Smooch Sans', san-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.1;
+  position: relative;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 750px) {
+  h1.home-banner__hero-text {
+    font-size: 5.8rem;
+  }
+}
+
+h2.home-banner__hero-text {
+  font-family: Overpass, san-serif;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  max-width: 20rem;
+}
+@media screen and (min-width: 750px) {
+  h2.home-banner__hero-text {
+    font-size: 2.6rem;
+    margin-top: 1rem;
+    max-width: 36rem;
+  }
+}
