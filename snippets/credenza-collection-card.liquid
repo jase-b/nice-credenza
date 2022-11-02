@@ -34,7 +34,11 @@
   endcase
 %}
 
-<a href="{{ card_collection.url }}" class="credenza-collection__card">
+<a
+  href="{{ card_collection.url }}"
+  class="credenza-collection__card"
+  style="background-image: url({{ 'credenza-collection-card-background.svg' | asset_url }};"
+>
     <p class="credenza-collection__card__title">{{ card_collection.title }}</p>
     <img
       class="credenza-collection__img {{ class_collection_name }}"
@@ -44,9 +48,3 @@
       src="{{ src_url }}"
     />
 </a>
-
-{% style %}
-  .credenza-collection__card {
-    background-image: url({{ 'credenza-collection-card-background.svg' | asset_url }});
-  }
-{% endstyle %}
