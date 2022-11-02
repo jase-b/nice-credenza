@@ -158,6 +158,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "9048aa81-6792-4d7e-a376-b8380371c3e2": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "9048aa81-6792-4d7e-a376-b8380371c3e2"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
