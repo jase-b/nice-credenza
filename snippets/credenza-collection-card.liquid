@@ -35,6 +35,7 @@
 %}
 
 <a href="{{ card_collection.url }}" class="credenza-collection__card">
+    <p class="credenza-collection__card__title">{{ card_collection.title }}</p>
     <img
       class="credenza-collection__img {{ class_collection_name }}"
       height="{{ card_collection.featured_image.height }}"
@@ -42,7 +43,6 @@
       loading="lazy"
       src="{{ src_url }}"
     />
-    <p class="credenza-collection__card__title">{{ card_collection.title }}</p>
 </a>
 
 {% style %}
