@@ -4,6 +4,7 @@
 
 .credenza-collection__card {
   align-items: center;
+  background-image: url(credenza-collection-card-background.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
@@ -13,8 +14,14 @@
   position: relative;
   transition: all .25s ease-in-out;
 }
-
-.credenza-collection__card:hover .credenza-collection__img {
+.credenza-collection__card:hover,
+.credenza-collection__card:active {
+  background-image: url(credenza-collection-card-background-hover.svg);
+  transform: scale(1.1);
+}
+.credenza-collection__card:hover .credenza-collection__card__title,
+.credenza-collection__card:active .credenza-collection__card__title {
+  color: var(--credenza-red-1);
   transition: all .25s ease-in-out;
 }
 
@@ -66,6 +73,7 @@
   text-align: center;
   text-transform: uppercase;
   transform: translateY(50%);
+  transition: all .25s ease-in-out;
 }
 @media screen and (min-width: 750px) {
   .credenza-collection__card__title {
