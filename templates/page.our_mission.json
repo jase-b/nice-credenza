@@ -8,6 +8,42 @@
         "padding_bottom": 28
       }
     },
+    "40b2bc82-f299-40df-ae33-87ec30fb4d70": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15924027228324__40b2bc82-f299-40df-ae33-87ec30fb4d70-1668126116b6b63a2b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We love furniture that blends function and style!",
+            "heading_size": "h1"
+          }
+        },
+        "template--15924027228324__40b2bc82-f299-40df-ae33-87ec30fb4d70-1668126116b6b63a2b-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15924027228324__40b2bc82-f299-40df-ae33-87ec30fb4d70-1668126116b6b63a2b-0",
+        "template--15924027228324__40b2bc82-f299-40df-ae33-87ec30fb4d70-1668126116b6b63a2b-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mission-collage-2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "d070bb07-e0ea-49d5-8517-129a26355f48": {
       "type": "multicolumn",
       "blocks": {
@@ -64,6 +100,7 @@
   },
   "order": [
     "main",
+    "40b2bc82-f299-40df-ae33-87ec30fb4d70",
     "d070bb07-e0ea-49d5-8517-129a26355f48"
   ]
 }
