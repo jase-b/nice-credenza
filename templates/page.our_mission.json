@@ -44,6 +44,15 @@
         "show_text_below": false
       }
     },
+    "7d663f82-f1cb-40b3-84a6-e7c852a737ac": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Foo",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "d070bb07-e0ea-49d5-8517-129a26355f48": {
       "type": "multicolumn",
       "blocks": {
@@ -93,6 +102,7 @@
   "order": [
     "main",
     "40b2bc82-f299-40df-ae33-87ec30fb4d70",
+    "7d663f82-f1cb-40b3-84a6-e7c852a737ac",
     "d070bb07-e0ea-49d5-8517-129a26355f48"
   ]
 }
