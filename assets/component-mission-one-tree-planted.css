@@ -1,7 +1,6 @@
 .otp-container {
   align-items: center;
-  background: radial-gradient(circle at center 40%, #027084, #032436 80%);
-  /* background-color: red; */
+  background: radial-gradient(circle at center 40%, #027084, #032436 90%);
   display: flex;
   flex-direction: column;
   padding: 10rem 3rem;
@@ -35,8 +34,6 @@
 .otp-text-1 {
   color: #FFE5C2;
   font-size: 2.2rem;
-  /* max-width: 70rem; */
-  /* text-align: center; */
 }
 @media screen and (min-width: 750px) {
   .otp-text-1 {
@@ -48,8 +45,6 @@
   color: var(--credenza-gray-light-1);
   font-size: 1.8rem;
   margin-top: 4rem;
-  /* max-width: 74rem; */
-  /* text-align: center; */
 }
 @media screen and (min-width: 750px) {
   .otp-text-2 {
