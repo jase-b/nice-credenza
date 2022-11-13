@@ -13,8 +13,8 @@
       "settings": {
         "custom_liquid": "{% render \"mission-hero\" %}",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "7d663f82-f1cb-40b3-84a6-e7c852a737ac": {
