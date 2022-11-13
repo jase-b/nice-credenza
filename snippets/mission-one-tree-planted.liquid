@@ -1,1 +1,29 @@
-<p>Foo</p>
+{{ 'component-mission-one-tree-planted.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width otp-container">
+  <img
+    class="otp-image"
+    height="100"
+    width="100"
+    loading="lazy"
+    src="{{ 'tree-heart-credenza.svg' | asset_url }}"
+  />
+  <span class="otp-text-1">
+    Trees are wonderful&#33;
+  </span>
+  <span class="otp-text-1">
+    We think there should be more of them.
+  </span>
+  <span class="otp-text-2">
+    That&apos;s why we donate to <a class="otp-link" href="https://onetreeplanted.org/" target="_blank">One Tree Planted</a>, a non-profit organization focused on environmental conservation and reforestation.
+  </span>
+  <span class="otp-text-2">
+    Thanks to them (and you &#128079;) a tree gets planted every time an order is placed with Nice Credenza.
+  </span>
+  <span class="otp-text-2">
+    After all, we&apos;re in the business of enhancing spaces.
+  </span>
+  <span class="otp-text-2">
+    Earth included&#33;
+  </span>
+</div>
