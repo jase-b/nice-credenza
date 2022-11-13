@@ -28,11 +28,11 @@
     },
     "d070bb07-e0ea-49d5-8517-129a26355f48": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--15924027228324__d070bb07-e0ea-49d5-8517-129a26355f48-1668030810863091b3-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/accessories_collage.png",
             "title": "Find a nice piece. Add some nice touches.",
             "text": "<p>Credenzas are great for complimenting our rooms. And we think they should be complimented for it!<br\/>That's why we offer items to accompany and adorn your credenza like bookends, bowls, vases, crystals, and lamps.<\/p>",
             "link_label": "",
