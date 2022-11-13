@@ -191,6 +191,13 @@
         --credenza-red-1: #FF8663;
       }
 
+      .hero-heading {
+        color: var(--credenza-blue-1);
+        font-family: 'Smooch Sans', sans-serif;
+        font-weight: 500;
+        line-height: 1;
+      }
+
       [class*="heading-decoration"]::before {
         --line-size: 2px;
         background-color: var(--credenza-red-1);
@@ -199,7 +206,7 @@
         height: 100%;
         position: absolute;
         text-transform: uppercase;
-        top: -1.6rem;
+        top: -1.4rem;
         width: 100%;
       }
       @media screen and (min-width: 750px) {
@@ -210,7 +217,7 @@
 
       .heading-decoration--left::before {
         clip-path: polygon(0% 0%, 52% 0, 52% var(--line-size), var(--line-size) var(--line-size), var(--line-size) 70%, 0% 70%);
-        left: -1.2rem;
+        left: -1rem;
       }
       @media screen and (min-width: 750px) {
         .heading-decoration--left::before {
