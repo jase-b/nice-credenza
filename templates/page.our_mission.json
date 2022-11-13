@@ -71,6 +71,36 @@
         "padding_bottom": 36
       }
     },
+    "7bd3d2e1-8e14-4fa1-8005-17ea34e92317": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Compliment Your Credenza.<br\/>Compliment Your Space.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-0",
+        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "06b9c51b-16a9-483e-8bd2-b3ae7cdce75f": {
       "type": "collage",
       "blocks": {
@@ -102,7 +132,7 @@
         "86b22179-1f1d-4c96-8a0a-76e7e75f1549"
       ],
       "settings": {
-        "heading": "Compliment Your Credenza. Compliment Your Space.",
+        "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -118,6 +148,7 @@
     "8dd1f07f-b13d-4a28-8298-a483e3a88ef9",
     "7d663f82-f1cb-40b3-84a6-e7c852a737ac",
     "d070bb07-e0ea-49d5-8517-129a26355f48",
+    "7bd3d2e1-8e14-4fa1-8005-17ea34e92317",
     "06b9c51b-16a9-483e-8bd2-b3ae7cdce75f"
   ]
 }
