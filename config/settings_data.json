@@ -9,7 +9,7 @@
     "colors_outline_button_labels": "#e7ecee",
     "colors_background_1": "#032436",
     "gradient_background_1": "linear-gradient(180deg, rgba(3, 36, 54, 1), rgba(2, 23, 34, 1) 100%)",
-    "colors_background_2": "#333f4b",
+    "colors_background_2": "#e7ecee",
     "gradient_background_2": "",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
