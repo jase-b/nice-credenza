@@ -26,85 +26,12 @@
         "padding_bottom": 0
       }
     },
-    "d070bb07-e0ea-49d5-8517-129a26355f48": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "template--15924027228324__d070bb07-e0ea-49d5-8517-129a26355f48-1668030810863091b3-0": {
-          "type": "column",
-          "settings": {
-            "title": "Find a nice piece. Add some nice touches.",
-            "text": "<p>Credenzas are great for complimenting our rooms. And we think they should be complimented for it!<br\/>That's why we offer items to accompany and adorn your credenza like bookends, bowls, vases, crystals, and lamps.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15924027228324__d070bb07-e0ea-49d5-8517-129a26355f48-1668030810863091b3-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mission-one-tree-planted.jpg",
-            "title": "Your order makes an impact",
-            "text": "<p>Nice Credenza is a small family business headquartered in the beautiful Pacific Northwest. The gorgeous trees that blanket the region inspired us to give back. To the trees, that is! That’s why every time an order is placed with Nice Credenza, a tree is planted via donation to One Tree Planted.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15924027228324__d070bb07-e0ea-49d5-8517-129a26355f48-1668030810863091b3-0",
-        "template--15924027228324__d070bb07-e0ea-49d5-8517-129a26355f48-1668030810863091b3-1"
-      ],
+    "6178321c-5cda-4ed9-9522-8099f9527c21": {
+      "type": "custom-liquid",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "custom_liquid": "{% render \"mission-extras\" %}",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "7bd3d2e1-8e14-4fa1-8005-17ea34e92317": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Compliment Your Credenza.<br\/>Compliment Your Space.<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>It feels good to fill your rooms with furniture and decor you enjoy looking at and showing off.<br\/><\/p>"
-          }
-        },
-        "fcdb748a-aa5c-4307-9a72-c4b9ee4e60ee": {
-          "type": "text",
-          "settings": {
-            "text": "<p>That's why we offer decorative pieces and accessories so you can add your own individual style and expressions to your furniture pieces.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-0",
-        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-1",
-        "fcdb748a-aa5c-4307-9a72-c4b9ee4e60ee"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 160,
+        "padding_top": 40,
         "padding_bottom": 52
       }
     },
@@ -145,8 +72,8 @@
         "mobile_layout": "collage",
         "card_styles": "none",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -154,8 +81,7 @@
     "main",
     "8dd1f07f-b13d-4a28-8298-a483e3a88ef9",
     "7d663f82-f1cb-40b3-84a6-e7c852a737ac",
-    "d070bb07-e0ea-49d5-8517-129a26355f48",
-    "7bd3d2e1-8e14-4fa1-8005-17ea34e92317",
+    "6178321c-5cda-4ed9-9522-8099f9527c21",
     "06b9c51b-16a9-483e-8bd2-b3ae7cdce75f"
   ]
 }
