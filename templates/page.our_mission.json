@@ -31,8 +31,8 @@
       "settings": {
         "custom_liquid": "{% render \"mission-extras\" %}",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 100,
+        "padding_bottom": 80
       }
     },
     "06b9c51b-16a9-483e-8bd2-b3ae7cdce75f": {
