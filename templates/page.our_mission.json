@@ -84,13 +84,20 @@
         "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-1": {
           "type": "text",
           "settings": {
-            "text": "<p>It feels good to fill your rooms with furniture and decor you enjoy looking at and showing off. That's why we offer decorative pieces and accessories so you can add your own individual style and expressions to your furniture pieces.<br\/><\/p>"
+            "text": "<p>It feels good to fill your rooms with furniture and decor you enjoy looking at and showing off.<br\/><\/p>"
+          }
+        },
+        "fcdb748a-aa5c-4307-9a72-c4b9ee4e60ee": {
+          "type": "text",
+          "settings": {
+            "text": "<p>That's why we offer decorative pieces and accessories so you can add your own individual style and expressions to your furniture pieces.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-0",
-        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-1"
+        "template--15924027228324__7bd3d2e1-8e14-4fa1-8005-17ea34e92317-1668379996cbd71b96-1",
+        "fcdb748a-aa5c-4307-9a72-c4b9ee4e60ee"
       ],
       "settings": {
         "desktop_content_position": "center",
