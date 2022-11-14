@@ -29,6 +29,7 @@
     },
     "6178321c-5cda-4ed9-9522-8099f9527c21": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% render \"mission-extras\" %}",
         "color_scheme": "background-1",
@@ -80,6 +81,7 @@
     },
     "4e895701-b087-4b7d-b2c4-298724d6f92e": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
