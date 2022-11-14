@@ -75,6 +75,33 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "4e895701-b087-4b7d-b2c4-298724d6f92e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "lamps",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -82,6 +109,7 @@
     "8dd1f07f-b13d-4a28-8298-a483e3a88ef9",
     "7d663f82-f1cb-40b3-84a6-e7c852a737ac",
     "6178321c-5cda-4ed9-9522-8099f9527c21",
-    "06b9c51b-16a9-483e-8bd2-b3ae7cdce75f"
+    "06b9c51b-16a9-483e-8bd2-b3ae7cdce75f",
+    "4e895701-b087-4b7d-b2c4-298724d6f92e"
   ]
 }
