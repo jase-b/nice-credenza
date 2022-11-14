@@ -60,28 +60,3 @@
 .otp-link:hover {
   text-decoration: underline;
 }
-
-#shopify-section-template--15926460907684__7bd3d2e1-8e14-4fa1-8005-17ea34e92317 .rich-text__heading {
-  font-family: 'Smooch Sans', sans-serif;
-  font-size: 3.4rem;
-  font-weight: 500;
-  margin-bottom: 4rem;
-}
-@media screen and (min-width: 750px) {
-  #shopify-section-template--15926460907684__7bd3d2e1-8e14-4fa1-8005-17ea34e92317 .rich-text__heading {
-    font-size: 5rem;
-  }
-}
-
-#shopify-section-template--15926460907684__7bd3d2e1-8e14-4fa1-8005-17ea34e92317 .rich-text__text {
-  color: var(--credenza-gray-light-1);
-  font-family: 'Spartan', sans-serif;
-  font-size: 1.8rem;
-  margin: 0 auto 4rem !important;
-  max-width: 66rem;
-}
-@media screen and (min-width: 750px) {
-  #shopify-section-template--15926460907684__7bd3d2e1-8e14-4fa1-8005-17ea34e92317 .rich-text__text {
-    font-size: 2rem;
-  }
-}
