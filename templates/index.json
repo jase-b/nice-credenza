@@ -4,7 +4,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "{% render \"home-banner\" %}",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -12,10 +12,10 @@
     "3f2414e8-85ed-45c3-8888-744a0cd85106": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% render \"credenza-collection-header\" %}",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 60,
+        "padding_bottom": 40
       }
     },
     "1661385569bec6cb6a": {

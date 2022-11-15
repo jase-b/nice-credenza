@@ -31,8 +31,13 @@
   /* border: 1px solid red; */
   display: inline-flex;
   flex-direction: column;
-  margin-left: 12%;
-  max-width: 60%;
+  margin-left: 10%;
+  max-width: 64%;
+}
+@media screen and (min-width: 450px) {
+  .home-banner__hero-text-container {
+    max-width: 80%;
+  }
 }
 @media screen and (min-width: 750px) {
   .home-banner__hero-text-container {
@@ -50,8 +55,14 @@ h1.home-banner__hero-text {
   font-size: 3rem;
   font-weight: 500;
   line-height: 1.1;
+  margin-bottom: 1.6rem;
   position: relative;
   text-transform: uppercase;
+}
+@media screen and (min-width: 450px) {
+  h1.home-banner__hero-text {
+    font-size: 3.4rem;
+  }
 }
 @media screen and (min-width: 750px) {
   h1.home-banner__hero-text {
@@ -61,14 +72,39 @@ h1.home-banner__hero-text {
 
 h2.home-banner__hero-text {
   font-family: Overpass, san-serif;
-  font-size: 1.4rem;
-  margin-top: 1rem;
-  max-width: 18rem;
+  font-size: 1.2rem;
+  /* margin-top: 1rem; */
+  line-height: 1.5;
+  /* max-width: 18rem; */
+}
+@media screen and (min-width: 450px) {
+  h2.home-banner__hero-text {
+    font-size: 1.4rem;
+  }
 }
 @media screen and (min-width: 750px) {
   h2.home-banner__hero-text {
     font-size: 2.4rem;
-    margin-top: 1rem;
     max-width: 36rem;
+  }
+}
+
+.one-tree-planted-logo {
+  display: inline;
+  height: auto;
+  margin-bottom: -.6rem;
+  margin-left: .4rem;
+  width: 80px;
+}
+@media screen and (min-width: 450px) {
+  .one-tree-planted-logo {
+    margin-bottom: -.6rem;
+    width: 100px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .one-tree-planted-logo {
+    margin-bottom: -1.2rem;
+    width: 180px;
   }
 }
