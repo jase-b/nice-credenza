@@ -1,13 +1,6 @@
 {{ 'component-mission-one-tree-planted.css' | asset_url | stylesheet_tag }}
 
-<div class="otp-container">
-  <img
-    class="otp-image"
-    height="100"
-    width="100"
-    loading="lazy"
-    src="{{ 'tree-heart-credenza.svg' | asset_url }}"
-  />
+<div class="page-width otp-container">
   <span class="otp-text-1">
     Trees are wonderful&#33;
   </span>
@@ -15,7 +8,7 @@
     We think there should be more of them.
   </span>
   <span class="otp-text-2">
-    That&apos;s why we donate to <a class="otp-link" href="https://onetreeplanted.org/" target="_blank">One Tree Planted</a>, a non-profit organization focused on environmental conservation and reforestation.
+    That&apos;s why we donate to <a class="otp-link" href="https://onetreeplanted.org/" target="_blank">One Tree Planted</a>, a nonprofit organization focused on environmental conservation and reforestation.
   </span>
   <span class="otp-text-2">
     Thanks to them (and you &#128079;) a tree gets planted every time an order is placed with Nice Credenza.
@@ -26,7 +19,11 @@
   <span class="otp-text-2">
     Earth included&#33;
   </span>
-  <span class="otp-text-2" style="font-size: 5rem;">
-    &#127758;
-  </span>
+  <img
+    class="otp-image"
+    height="100"
+    width="100"
+    loading="lazy"
+    src="{{ 'tree-heart-credenza.svg' | asset_url }}"
+  />
 </div>

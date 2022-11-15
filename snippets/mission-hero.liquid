@@ -1,7 +1,23 @@
 {{ 'component-mission-hero.css' | asset_url | stylesheet_tag }}
 
 <div class="page-width hero-container">
+  <img
+    class="otp-plants-img"
+    height="100"
+    width="100"
+    loading="lazy"
+    src="{{ 'otp-plants.jpg' | asset_url }}"
+  />
   <span class="hero-heading heading-decoration--left" role="heading">
-    Credenzas with a Mission
+    Every Purchase Plants a Tree
   </span>
+  <div class="otp-logo-container">
+    <img
+      class="otp-logo-img"
+      height="100"
+      width="100"
+      loading="lazy"
+      src="{{ 'one-tree-planted-logo.svg' | asset_url }}"
+    />
+  </div>
 </div>

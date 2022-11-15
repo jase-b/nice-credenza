@@ -7,13 +7,13 @@
 }
 @media screen and (min-width: 750px) {
   .otp-container {
-    padding-top: 15rem;
+    padding-top: 14rem;
   }
 }
 
 .otp-image {
   height: auto;
-  margin-bottom: 8rem;
+  margin-top: 8rem;
   width: 200px;
 }
 @media screen and (min-width: 750px) {
@@ -23,7 +23,7 @@
 }
 
 [class*=otp-text] {
-  color: #FFE5C2;
+  color: var(--credenza-gray-light-1);
   font-family: 'Spartan', sans-serif;
   font-size: 2.6rem;
   max-width: 60rem;
@@ -31,7 +31,6 @@
 }
 
 .otp-text-1 {
-  color: #FFE5C2;
   font-size: 2.2rem;
 }
 @media screen and (min-width: 750px) {
@@ -41,7 +40,6 @@
 }
 
 .otp-text-2 {
-  color: var(--credenza-gray-light-1);
   font-size: 1.8rem;
   margin-top: 4rem;
 }
@@ -52,7 +50,7 @@
 }
 
 .otp-link {
-  color: #4DC786;
+  color: #5DBB47;
   text-decoration: none;
 }
 

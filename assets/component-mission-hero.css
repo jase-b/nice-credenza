@@ -1,32 +1,95 @@
 .hero-container {
-  background-image: url(mission-hero.jpg);
-  background-repeat: no-repeat;
-  background-position-x: 0%;
-  background-position-y: 50%;
-  background-size: 100%;
+  border-bottom: 3px solid var(--credenza-blue-light-1);
   height: 260px;
+  overflow: hidden;
+  padding: 0;
   position: relative;
 }
 @media screen and (min-width: 750px) {
   .hero-container {
-    height: 500px;
+    height: 45vw;
+    max-height: 500px;
   }
 }
 
 .hero-heading {
-  font-size: 3.4rem;
+  color: var(--credenza-orange-light-1);
+  font-size: 3.2rem;
   left: 8%;
   position: absolute;
   top: 15%;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 450px) {
   .hero-heading {
-    left: 10%;
-    top: 15%;
+    font-size: 3.8rem;
+    left: 12%;
+    top: 25%;
   }
 }
 @media screen and (min-width: 750px) {
   .hero-heading {
-    font-size: 5.6rem;
+    font-size: 6.4rem;
   }
+}
+
+.otp-plants-img {
+  height: auto;
+  opacity: .4;
+  width: 115%;
+}
+@media screen and (min-width: 750px) {
+  .otp-plants-img {
+    transform: translateY(-15%);
+    width: 100%;
+  }
+}
+
+.otp-logo-container {
+  --size: 100px;
+  bottom: 5%;
+  height: var(--size);
+  position: absolute;
+  right: calc(50% - (var(--size) / 2));
+  width: var(--size);
+}
+@media screen and (min-width: 450px) {
+  .otp-logo-container {
+    right: 8%;
+  }
+}
+@media screen and (min-width: 750px) {
+  .otp-logo-container {
+    --size: 100px;
+    bottom: 8%;
+    font-size: 5.8rem;
+    right: 5%;
+  }
+}
+
+.otp-logo-container::after {
+  color: var(--credenza-orange-light-1);
+  content: "Proud Partners of";
+  font-family: 'Overpass', sans-serif;
+  font-size: .8rem;
+  right: 90%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  z-index: 6;
+  width: 120%;
+}
+@media screen and (min-width: 750px) {
+  .otp-logo-container::after  {
+    font-size: 1.2rem;
+    right: 112%;
+    top: 40%;
+  }
+}
+
+.otp-logo-img {
+  height: auto;
+  opacity: .9;
+  position: relative;
+  width: 100%;
 }
