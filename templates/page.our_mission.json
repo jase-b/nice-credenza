@@ -8,21 +8,21 @@
         "padding_bottom": 28
       }
     },
-    "7d663f82-f1cb-40b3-84a6-e7c852a737ac": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render \"mission-one-tree-planted\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "8dd1f07f-b13d-4a28-8298-a483e3a88ef9": {
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
         "custom_liquid": "{% render \"mission-hero\" %}",
         "color_scheme": "background-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7d663f82-f1cb-40b3-84a6-e7c852a737ac": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render \"mission-one-tree-planted\" %}",
+        "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -144,8 +144,8 @@
   },
   "order": [
     "main",
-    "7d663f82-f1cb-40b3-84a6-e7c852a737ac",
     "8dd1f07f-b13d-4a28-8298-a483e3a88ef9",
+    "7d663f82-f1cb-40b3-84a6-e7c852a737ac",
     "6178321c-5cda-4ed9-9522-8099f9527c21",
     "06b9c51b-16a9-483e-8bd2-b3ae7cdce75f",
     "4e895701-b087-4b7d-b2c4-298724d6f92e",
