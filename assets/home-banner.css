@@ -73,9 +73,7 @@ h1.home-banner__hero-text {
 h2.home-banner__hero-text {
   font-family: Overpass, san-serif;
   font-size: 1.2rem;
-  /* margin-top: 1rem; */
-  line-height: 1.5;
-  /* max-width: 18rem; */
+  line-height: 1.6;
 }
 @media screen and (min-width: 450px) {
   h2.home-banner__hero-text {
@@ -93,18 +91,17 @@ h2.home-banner__hero-text {
   display: inline;
   height: auto;
   margin-bottom: -.6rem;
-  margin-left: .4rem;
-  width: 80px;
+  margin-left: .2rem;
+  width: 90px;
 }
 @media screen and (min-width: 450px) {
   .one-tree-planted-logo {
-    margin-bottom: -.6rem;
     width: 100px;
   }
 }
 @media screen and (min-width: 750px) {
   .one-tree-planted-logo {
-    margin-bottom: -1.2rem;
+    margin-bottom: -1.4rem;
     width: 180px;
   }
 }
