@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "8dd1f07f-b13d-4a28-8298-a483e3a88ef9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render \"mission-hero\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7d663f82-f1cb-40b3-84a6-e7c852a737ac": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render \"mission-one-tree-planted\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6178321c-5cda-4ed9-9522-8099f9527c21": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% render \"mission-extras\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 100,
+        "padding_bottom": 80
+      }
+    },
+    "06b9c51b-16a9-483e-8bd2-b3ae7cdce75f": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "template--15924027228324__06b9c51b-16a9-483e-8bd2-b3ae7cdce75f-1668379288b3247029-1": {
+          "type": "product",
+          "settings": {
+            "product": "rattan-table-lamp",
+            "second_image": false
+          }
+        },
+        "0ee2b147-2da2-495a-8c6d-e6d5483a63e2": {
+          "type": "product",
+          "settings": {
+            "product": "candles-with-timer",
+            "second_image": false
+          }
+        },
+        "86b22179-1f1d-4c96-8a0a-76e7e75f1549": {
+          "type": "product",
+          "settings": {
+            "product": "minimalist-hollow-table-lamps",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15924027228324__06b9c51b-16a9-483e-8bd2-b3ae7cdce75f-1668379288b3247029-1",
+        "0ee2b147-2da2-495a-8c6d-e6d5483a63e2",
+        "86b22179-1f1d-4c96-8a0a-76e7e75f1549"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4e895701-b087-4b7d-b2c4-298724d6f92e": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "lamps",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8dd1f07f-b13d-4a28-8298-a483e3a88ef9",
+    "7d663f82-f1cb-40b3-84a6-e7c852a737ac",
+    "6178321c-5cda-4ed9-9522-8099f9527c21",
+    "06b9c51b-16a9-483e-8bd2-b3ae7cdce75f",
+    "4e895701-b087-4b7d-b2c4-298724d6f92e"
+  ]
+}
